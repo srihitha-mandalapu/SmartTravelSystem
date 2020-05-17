@@ -1,0 +1,105 @@
+name: flutter_app
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_pro: ^1.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/travel.jpeg
+    - images/wave.gif
+    - images/Aapno_ghar.jpg
+    - images/Adventure_Island.png
+    - images/Agrasen_ki_baoli.jpeg
+    - images/Akshardam_temple.jpg
+    - images/AmbienceMallVasantKunj.jpg
+    - images/Ardee_mall.jpg
+    - images/bangla-sahib-gurudwara.jpg
+    - images/Delhi_eye.jpg
+    - images/DLF.jpg
+    - images/DLFPlaceSaket.jpg
+    - images/Drizzling_land.jpg
+    - images/entertainment_city.jpg
+    - images/Fun_N_FoodVillage.jpg
+    - images/Hotel_Arch.jpg
+    - images/Hotel_Arch 2.jpg
+    - images/Hotel_Arch 3.jpg
+    - images/Humanyus_tomb.jpg
+    - images/India_gate.jpg
+    - images/Iskcon_temple.jpg
+    - images/Jama_Masjid.jpg
+    - images/Jurasik_park_Inn.jpg
+    - images/Kingdom_of_Dreams.jpg
+    - images/Lotus_temple.jpg
+    - images/Maidens.jpg
+    - images/Maidens 2.jpg
+    - images/Maidens 3.jpg
+    - images/Minimalist.jpg
+    - images/Minimalist 2.jpg
+    - images/Minimalist 3.jpg
+    - images/moments_mall.jpg
+    - images/Naional_museum.jpg
+    - images/Nizamuddin_darga.jpg
+    - images/Pacific_mall.jpg
+    - images/Purana_Qila.jpg
+    - images/Qutub_Minar.jpg
+    - images/Quwwat-ul-Islam_Mosque.jpg
+    - images/Rail_museum.jpg
+    - images/Rajghat.jpg
+    - images/Rashtrapati_Bhavan.jpg
+    - images/Red_fort.jpg
+    - images/safdarjung_tomb.jpg
+    - images/Scary_house.jpg
+    - images/Select_CityWalk.jpg
+    - images/Taj_Palace.jpg
+    - images/Taj_Palace 2.jpg
+    - images/Taj_Palace 3.jpg
+    - images/The_Leela_Palace.jpg
+    - images/The_Leela_Palace 2.jpg
+    - images/The_Leela_Palace 3.jpg
+    - images/The_Lodhi.jpg
+    - images/The_Lodhi 2.jpg
+    - images/The_Lodhi 3.jpg
+    - images/The_Lodhi 4.jpg
+    - images/The_Oberoi.jpg
+    - images/The_Oberoi 2.jpg
+    - images/The_Oberoi 3.jpg
+    - images/Tughlaqabad.jpg
+    - images/vegas_mall.jpg
+    - images/wet-n-wild.jpg
+
+
+
+
+  fonts:
+    - family: CarterOne
+      fonts:
+       - asset: fonts/CarterOne-Regular.ttf
